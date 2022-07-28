@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#Content-deskripsi{
+    text-align: center;
+    background: #212529;
+}
+#Content-deskripsi .container{
+    padding-top: 50px; 
+    padding-bottom: 100px;
+}
+#Content-deskripsi a{
+    text-decoration: none;
+    outline: none;
+}
