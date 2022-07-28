@@ -1,0 +1,304 @@
+* {
+	font-family: 'Roboto';
+	margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+#slider {
+	margin-top: 15%;
+}
+
+.img-area {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.img-area img {
+	width: 100%
+}
+
+.content {
+	text-align: center;
+	padding: 40px;
+	color: #fff;
+	border-radius: 25px;
+}
+
+.content h2 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.content p {
+	line-height: 1.9;
+}
+
+.socials {
+	margin-top: 30px;
+}
+
+.socials i {
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.cell {
+    width: 20%;
+    height: 190px;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;    
+}
+
+.cell img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+#gb {
+    text-align: center;
+    background: #212529;
+}
+
+#gb .container {
+    padding-top: 10px; 
+    padding-bottom: 50px;
+}
+
+#gb a{
+    text-decoration: none;
+    outline: none;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#Content-deskripsi{
+    text-align: center;
+    background: #212529;
+}
+#Content-deskripsi .container{
+    padding-top: 50px; 
+    padding-bottom: 100px;
+}
+#Content-deskripsi a{
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.testimonials{
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border{
+  width: 160px;
+  height: 5px;
+  background: #212529;
+  margin: 26px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars{
+  color: #FFDE59;
+  margin-bottom: 20px;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(33, 37, 41, 0.81)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+  .custom-toggler.navbar-toggler {
+	border-color: rgb(255, 255, 255);
+} 
+
+
+.bg-light {
+	background-color: transparent !important;
+}
+
+.carousel-item {
+	height: 100vh;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+    background: black;
+	padding: 10px 30px;
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	margin-top: 15px;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #FFDE59;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+    
+}
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+
+    .navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		bottom: 165px;
+	}
+
+	.carousel-caption h5 {
+		font-size: 36px;
+        
+	}
+	.carousel-caption a {
+		padding: 1px 5px;
+		font-size: 15px;
+	}
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgba(110, 109, 109, 0.274);
+	color: white;
+	cursor: pointer;
+	padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+	border-radius: 4px;
+}
+  
+#myBtn:hover {
+	background-color: #555;
+}
+.myBtnn {
+	display: none;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgba(110, 109, 109, 0.274);
+	color: white;
+	cursor: pointer;
+	padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+	border-radius: 4px;
+}
+  
+.myBtnn:hover {
+	background-color: #555;
+}
+
