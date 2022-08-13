@@ -17,9 +17,13 @@
   </head>
 
   <body>
-    <audio controls autoplay loop>
+    <audio controls autoplay loop id="lagu" >
       <source src="audio/3sCGysVB41k_160.mp3" type="audio/mpeg">
     </audio>
+    <script>
+      var vid = document.getElementById("lagu");
+      vid.volume = 0.3;
+    </script>
     <!-- side bar -->
     <span class="none" id="first"></span>
     <input type="checkbox" id="check" />
@@ -116,7 +120,7 @@
     <section id="portfolio">
       <div class="container">
         <h3>Portfolio</h3>
-
+        
         <div class="col-2">
           <a href="book/book.html">
             <img src="img/book.jpg" />
@@ -163,7 +167,7 @@
       
       </div>
     </section>
-
+    
     <!-- end of Contact -->
   </body>
 </html>
