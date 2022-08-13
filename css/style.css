@@ -100,6 +100,20 @@ a {
 #check:checked ~ .sidebar {
   left: 0;
 }
+
+#icon {
+  margin-bottom: 5vh;
+  margin-right: 5vh;
+  border: 0.01vh solid;
+  padding: 3vh;
+  border-radius: 8vh;
+  background-color: #12365a;
+  position: fixed;
+  text-decoration: none;
+  color: #ddd;
+  bottom: 0;
+  right: 0;
+}
 /*  */
 .mobile-menu {
   float: right;
@@ -146,6 +160,7 @@ section h3::after {
 #contact {
   background-color: #f9f9f9;
 }
+
 #skills .bar {
   height: 20px;
   background-color: white;
@@ -176,7 +191,12 @@ section h3::after {
 .js {
   width: 20%;
 }
-
+.word {
+  width: 70%;
+}
+.exel {
+  width: 60%;
+}
 .col-2 {
   width: 50%;
   box-sizing: border-box;
@@ -215,7 +235,7 @@ section h3::after {
   .col-4 {
     width: 100%;
     box-sizing: border-box;
-    padding: 50px 10px;
+    padding: 10px 10px;
     float: left;
     text-align: center;
   }
