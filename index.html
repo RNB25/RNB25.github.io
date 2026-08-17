@@ -1,173 +1,672 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Rofi N.B</title>
-  </head>
+    <circle cx="18" cy="32" r="4" stroke="#D9A94A" stroke-width="1.6"/>
+    <path d="M28 24h14M28 32h14M28 40h9" stroke="#2FD9C9" stroke-width="1.4" stroke-linecap="round"/>
+  </svg>
+  <svg data-speed="0.6" class="parallax-item absolute right-[9%] top-[16%] w-12 h-12 opacity-30 hidden md:block" viewBox="0 0 64 64" fill="none">
+    <circle cx="32" cy="32" r="22" stroke="#2FD9C9" stroke-width="1.4"/>
+    <circle cx="32" cy="32" r="4" fill="#2FD9C9"/>
+  </svg>
+  <svg data-speed="0.22" class="parallax-item absolute right-[16%] bottom-[18%] w-20 h-20 opacity-25 hidden lg:block" viewBox="0 0 64 64" fill="none">
+    <rect x="10" y="10" width="44" height="44" rx="8" stroke="#D9A94A" stroke-width="1.2"/>
+    <path d="M10 24h44M24 10v44" stroke="#D9A94A" stroke-width="1" opacity=".5"/>
+  </svg>
 
-  <body>
-    <audio hidden autoplay loop id="lagu" >
-      <source src="audio/3sCGysVB41k_160.mp3" type="audio/mpeg">
-    </audio>
-    <script>
-      var vid = document.getElementById("lagu");
-      vid.volume = 0.2;
-    </script>
-    <!-- side bar -->
-    <span class="none" id="first"></span>
-    <input type="checkbox" id="check" />
-    <div class="sidebar">
-      <ul>
-        <li class="about"><a href="#about">About</a></li>
-        <li class="skill"><a href="#skills">Skill</a></li>
-        <li class="portofolio"><a href="#portfolio">Portofilio</a></li>
-        <li class="contact"><a href="#contact">Contact</a></li>
-      </ul>
+  <div class="relative z-10 flex-1 flex flex-col justify-center max-w-6xl mx-auto px-6 md:px-10 pt-28 pb-16 w-full">
+    <div class="reveal" style="transition-delay:.05s">
+      <span class="tag-chip text-brasslight">ID.RNB · IT PRESALES ENGINEER</span>
     </div>
-    <header>
-      <div class="container">
-        <h1><a href="#first">Rofi Nabhan Basil</a></h1>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skill</a></li>
-          <li><a href="#portfolio">Portofolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <label for="check" class="mobile-menu"><i class="fa-solid fa-bars fa-2l"></i></label>
-      </div>
-    </header>
 
-    <a href="#">
-      <i class="fa-solid fa-angles-up" id="icon"></i>
+    <h1 class="reveal font-display font-semibold leading-[0.98] mt-7 text-[13vw] sm:text-6xl md:text-7xl lg:text-[5.6rem] tracking-tight" style="transition-delay:.15s">
+      Rofi Nabhan<br/>Basil
+    </h1>
+
+    <p class="reveal mt-7 max-w-xl text-[15px] md:text-base leading-relaxed text-textmutedlight" style="transition-delay:.25s">
+      Presales Engineer yang menerjemahkan solusi cybersecurity dan asset management menjadi proposal yang mudah dipahami, dari technical meeting sampai tender, untuk klien perusahaan hingga pemerintahan.
+    </p>
+
+    <div class="reveal mt-9 flex flex-wrap items-center gap-3.5" style="transition-delay:.35s">
+      <a href="#pengalaman" class="magnetic px-6 py-3.5 rounded-full bg-brasslight text-ink font-mono text-[12px] uppercase tracking-wide font-medium">Lihat Pengalaman</a>
+      <a href="mailto:rofinb123@gmail.com" class="magnetic px-6 py-3.5 rounded-full border border-white/25 font-mono text-[12px] uppercase tracking-wide hover:border-tealbright hover:text-tealbright transition-colors">Kirim Email</a>
+      <a href="Rofi Nabhan Basil - CV V.3.pdf" download class="magnetic px-6 py-3.5 rounded-full border border-white/25 font-mono text-[12px] uppercase tracking-wide hover:border-brasslight hover:text-brasslight transition-colors">Unduh CV ↓</a>
+    </div>
+
+    <div class="reveal mt-14 grid grid-cols-3 max-w-md gap-6 border-t border-white/10 pt-7" style="transition-delay:.45s">
+      <div>
+        <div class="font-display text-3xl md:text-4xl font-semibold text-paper"><span class="stat-num" data-target="2025">0</span></div>
+        <div class="font-mono text-[10px] uppercase tracking-wide text-textmutedlight mt-1.5">Lulus S1 Ilkom</div>
+      </div>
+      <div>
+        <div class="font-display text-3xl md:text-4xl font-semibold text-paper">
+          <span class="stat-num-decimal" data-target="3.07">0.00</span>
+        </div>
+        <div class="font-mono text-[10px] uppercase tracking-wide text-textmutedlight mt-1.5">IPK Kelulusan</div>
+      </div>
+      <div>
+        <div class="font-display text-3xl md:text-4xl font-semibold text-paper"><span class="stat-num" data-target="5">0</span>+</div>
+        <div class="font-mono text-[10px] uppercase tracking-wide text-textmutedlight mt-1.5">Proyek Dibangun</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative z-10 flex justify-center pb-7">
+    <a href="#profil" aria-label="Gulir ke bawah" class="w-6 h-10 rounded-full border border-white/25 flex items-start justify-center p-1.5">
+      <span class="w-1 h-1.5 rounded-full bg-tealbright animate-bounce"></span>
     </a>
+  </div>
+</section>
 
-    <section class="banner">
-      <div class="container">
+<!-- ============ TICKER ============ -->
+<div class="ticker-wrap bg-inksoft text-paper/70 border-y border-white/10 py-4 overflow-hidden">
+  <div class="ticker-track font-mono text-[12px] uppercase tracking-widest">
+    <div class="flex items-center">
+      <!-- set 1 -->
+      <span class="mx-6">Heimdal Security</span><span class="text-brass">·</span>
+      <span class="mx-6">TAG Samurai</span><span class="text-brass">·</span>
+      <span class="mx-6">RFID / QR / NFC</span><span class="text-brass">·</span>
+      <span class="mx-6">Proposal Teknis</span><span class="text-brass">·</span>
+      <span class="mx-6">Laravel</span><span class="text-brass">·</span>
+      <span class="mx-6">Python</span><span class="text-brass">·</span>
+      <span class="mx-6">MySQL</span><span class="text-brass">·</span>
+      <span class="mx-6">Tailwind CSS</span><span class="text-brass">·</span>
+      <span class="mx-6">Machine Learning</span><span class="text-brass">·</span>
+      <span class="mx-6">Data Analysis</span><span class="text-brass">·</span>
+    </div>
+    <div class="flex items-center" aria-hidden="true">
+      <!-- set 2 (duplicate for seamless loop) -->
+      <span class="mx-6">Heimdal Security</span><span class="text-brass">·</span>
+      <span class="mx-6">TAG Samurai</span><span class="text-brass">·</span>
+      <span class="mx-6">RFID / QR / NFC</span><span class="text-brass">·</span>
+      <span class="mx-6">Proposal Teknis</span><span class="text-brass">·</span>
+      <span class="mx-6">Laravel</span><span class="text-brass">·</span>
+      <span class="mx-6">Python</span><span class="text-brass">·</span>
+      <span class="mx-6">MySQL</span><span class="text-brass">·</span>
+      <span class="mx-6">Tailwind CSS</span><span class="text-brass">·</span>
+      <span class="mx-6">Machine Learning</span><span class="text-brass">·</span>
+      <span class="mx-6">Data Analysis</span><span class="text-brass">·</span>
+    </div>
+  </div>
+</div>
 
-        <img src="img/foto-removebg-preview.png" />
-        <h2>Hallo gaes! <span class="typing"></span></h2>
+<main>
 
-        <p>
-          <span class="tab"></span>Nama saya Rofi, anak terakhir dalam keluarga kelahiran 2002. Saya punya banyak cita-cita salah satunya adalah keluar angkasa sambil memakai helm dan baju putih yang besar ditemani oleh secangkir kopi beku,
-          hal yang aneh tapi keren bagi saya, sayangnya cita-cita itu harus saya kubur hidup-hidup karena ternyata kopi beku itu tidak enak.
+<!-- ============ PROFIL ============ -->
+<section id="profil" class="bg-paper grid-paper py-24 md:py-32">
+  <div class="max-w-6xl mx-auto px-6 md:px-10 grid md:grid-cols-[0.85fr,1.15fr] gap-14 md:gap-16 items-start">
+
+    <!-- ID badge -->
+    <div class="reveal">
+      <div class="relative mx-auto max-w-xs">
+        <div class="relative scan-frame p-4 bg-ink rounded-2xl shadow-xl text-brasslight">
+          <span class="corner corner-tl"></span><span class="corner corner-tr"></span>
+          <span class="corner corner-bl"></span><span class="corner corner-br"></span>
+          <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-wider text-paper/60 px-1 pb-3">
+            <span>ID · RNB</span>
+            <span></span>
+          </div>
+          <div class="rounded-lg overflow-hidden aspect-[3/4] bg-inksoft">
+            <img src="foto-rofi.jpg" alt="Foto Rofi Nabhan Basil" class="badge-photo w-full h-full object-cover">
+          </div>
+          <div class="px-1 pt-3.5">
+            <div class="font-display text-paper font-semibold text-lg leading-tight">Rofi Nabhan Basil</div>
+            <div class="font-mono text-[11px] text-tealbright mt-1">Data Analyst Enthusiast</div>
+          </div>
+          <div class="flex justify-center -mt-1">
+            <span class="w-3 h-3 rounded-full bg-ink border-2 border-brasslight/60 mt-3"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- bio -->
+    <div>
+      <span class="reveal tag-chip text-brass">TENTANG SAYA</span>
+      <h2 class="reveal font-display text-3xl md:text-[2.6rem] font-semibold tracking-tight mt-5 leading-tight" style="transition-delay:.08s">
+        Menghubungkan sisi teknis dan sisi bisnis dari setiap solusi IT.
+      </h2>
+      <p class="reveal mt-6 text-textmuted leading-relaxed text-[15px]" style="transition-delay:.16s">
+        Saya lulusan S1 Ilmu Komputer dari Universitas Pertamina dengan fokus di pengembangan web. Saat ini saya bekerja sebagai Presales Engineer di PT Qtera Mandiri, menjembatani kebutuhan klien dengan solusi cybersecurity dan asset management yang tepat guna, mulai dari analisis kebutuhan, penyusunan proposal, hingga demo produk dan proses tender.
+      </p>
+      <p class="reveal mt-4 text-textmuted leading-relaxed text-[15px]" style="transition-delay:.22s">
+        Di luar pekerjaan utama, saya terbiasa belajar mandiri dan senang mengeksplorasi solusi kreatif lewat kode, riset data, maupun proposal bisnis. Sebagian pengalaman itu tertuang dalam usaha kecil yang saya bangun sendiri, mulai dari bisnis buket hingga eksperimen model trading berbasis data.
+      </p>
+
+      <div class="reveal grid grid-cols-2 sm:grid-cols-3 gap-4 mt-9" style="transition-delay:.3s">
+        <div class="border-t-2 border-brass pt-3">
+          <div class="font-mono text-[10px] uppercase tracking-wide text-textmuted">Pendidikan</div>
+          <div class="font-display font-medium mt-1 text-sm">S1 Ilmu Komputer</div>
+          <div class="text-xs text-textmuted mt-0.5">Universitas Pertamina, 2020–2025</div>
+        </div>
+        <div class="border-t-2 border-teal pt-3">
+          <div class="font-mono text-[10px] uppercase tracking-wide text-textmuted">Domisili</div>
+          <div class="font-display font-medium mt-1 text-sm">Jl. Puyuh Raya Blok E.464</div>
+          <div class="text-xs text-textmuted mt-0.5">Terbuka untuk on-site &amp; remote</div>
+        </div>
+        <div class="border-t-2 border-brass pt-3">
+          <div class="font-mono text-[10px] uppercase tracking-wide text-textmuted">Bahasa</div>
+          <div class="font-display font-medium mt-1 text-sm">ID Fasih · EN Menengah</div>
+          <div class="text-xs text-textmuted mt-0.5">Lihat detail di bawah</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PENGALAMAN KERJA ============ -->
+<section id="pengalaman" class="bg-paperdeep py-24 md:py-32">
+  <div class="max-w-6xl mx-auto px-6 md:px-10">
+    <div class="reveal flex items-end justify-between flex-wrap gap-4 mb-14">
+      <div>
+        <span class="tag-chip text-brass">RIWAYAT KERJA</span>
+        <h2 class="font-display text-3xl md:text-[2.4rem] font-semibold tracking-tight mt-5">Pengalaman Profesional</h2>
+      </div>
+      <p class="max-w-xs text-sm text-textmuted leading-relaxed">Dari administrasi akademik hingga presales engineering di industri cybersecurity dan asset management.</p>
+    </div>
+
+    <div class="relative rail pl-9">
+      <!-- item 1 -->
+      <div class="reveal relative mb-14">
+        <span class="rail-dot bg-brasslight ring-4 ring-paperdeep"></span>
+        <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
+          <span class="tag-chip text-brass !text-[10px]">APR 2026 — SEKARANG</span>
+        </div>
+        <h3 class="font-display text-xl md:text-2xl font-semibold">IT Presales Engineer</h3>
+        <div class="font-mono text-xs text-teal mt-1">PT Qtera Mandiri</div>
+        <p class="mt-3 text-textmuted text-[15px] leading-relaxed max-w-2xl">
+          Menyusun proposal, quotation, dan materi presentasi untuk solusi cybersecurity dan asset management. Melakukan demo produk, konsultasi teknis, serta mendukung proof of concept dan tender hingga kebutuhan klien terpenuhi.
         </p>
-      
-      </div>
-    </section>
-
-    <section id="about">
-      <div class="container">
-        <h3>About</h3>
-        <p>Aboutnya masih kosong, bingung dah mau ngisi apa, kalian klo ada saran buat bagian about ini bisa contact ke wa nomor 082124975759 yeee. semua saran diterima. terimakasih</p>
-      </div>
-    </section>
-
-    <!-- Skill -->
-    <section id="skills">
-      <div class="container">
-        <h3 id="skillz">Skills</h3>
-
-        <h4>HTML</h4>
-        <div class="bar">
-          <span class="nilai html">70%</span>
-        </div>
-
-        <h4>CSS</h4>
-        <div class="bar">
-          <span class="nilai css">50%</span>
-        </div>
-
-        <h4>C++</h4>
-        <div class="bar">
-          <span class="nilai c">70%</span>
-        </div>
-
-        <h4>Java</h4>
-        <div class="bar">
-          <span class="nilai java">80%</span>
-        </div>
-
-        <h4>Javascript</h4>
-        <div class="bar">
-          <span class="nilai js">20%</span>
-        </div>
-
-        <h4>Ms.Word</h4>
-        <div class="bar">
-          <span class="nilai word">70%</span>
-        </div>
-
-        <h4>Ms.Exel</h4>
-        <div class="bar">
-          <span class="nilai exel">60%</span>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="tag-chip text-textmuted !text-[10px]">Proposal Writing</span>
+          <span class="tag-chip text-textmuted !text-[10px]">Product Demo</span>
+          <span class="tag-chip text-textmuted !text-[10px]">PoC &amp; Tender</span>
+          <span class="tag-chip text-textmuted !text-[10px]">Client Consultation</span>
         </div>
       </div>
-    </section>
-    <!-- end of Skill -->
 
-    <!-- portfolio -->
-    <section id="portfolio">
-      <div class="container">
-        <h3>Portfolio</h3>
-        
-        <div class="col-2">
-          <a href="book/book.html">
-            <img src="img/book.jpg" />
-            <span></br>Buku ucapan</span>
-          </a>
+      <!-- item 2 -->
+      <div class="reveal relative mb-2">
+        <span class="rail-dot bg-teal ring-4 ring-paperdeep"></span>
+        <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
+          <span class="tag-chip text-brass !text-[10px]">OKT 2025 — JAN 2026</span>
         </div>
-
-        <div class="col-2">
-          <a href="wedding/index.html">
-            <img src="img/wedding.jpg" />
-            <span></br>Foto Studio</span>
-          </a>
+        <h3 class="font-display text-xl md:text-2xl font-semibold">Staf Administrasi</h3>
+        <div class="font-mono text-xs text-teal mt-1">Direktorat Pendidikan, Universitas Pertamina</div>
+        <p class="mt-3 text-textmuted text-[15px] leading-relaxed max-w-2xl">
+          Mengelola dokumen akademik penting seperti ijazah dan Surat Keterangan Pendamping Ijazah (SKPI), mendukung pelaksanaan ujian, serta menjaga kelengkapan, keamanan, dan kerahasiaan arsip administrasi.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="tag-chip text-textmuted !text-[10px]">Document Management</span>
+          <span class="tag-chip text-textmuted !text-[10px]">Academic Administration</span>
+          <span class="tag-chip text-textmuted !text-[10px]">Confidentiality</span>
         </div>
       </div>
-    </section>
-    <!-- end of portfolio -->
+    </div>
+  </div>
+</section>
 
-    <!-- Contact -->
-    <section id="contact">
-      
-      <div class="container">
-        
-        <h3>Contact</h3>
-        
-        <div class="col-4">
-          <h4>Alamat</h4>
-          <p>Jl.Puyuhraya Blok E.464, Bekasi</p>
-        </div>
-        
-        <div class="col-4">
-          <h4>Email</h4>
-          <p>rofinb123@gmail.com</p>
-        </div>
-        
-        <div class="col-4">
-          <h4>IG</h4>
-          <p>rofi.nb</p>
-        </div>
-        
-        <div class="col-4">
-          <h4>No HP</h4>
-          <p>0821-2497-5749</p>
-        </div>        
-      
+<!-- ============ ORGANISASI & MENTORING ============ -->
+<section class="bg-paper grid-paper py-24 md:py-32">
+  <div class="max-w-6xl mx-auto px-6 md:px-10 grid lg:grid-cols-2 gap-14">
+
+    <div>
+      <span class="reveal tag-chip text-brass">KEPEMIMPINAN</span>
+      <h2 class="reveal font-display text-2xl md:text-3xl font-semibold tracking-tight mt-5 mb-8" style="transition-delay:.06s">Pengalaman Organisasi</h2>
+
+      <div class="reveal tilt-card bg-ink text-paper rounded-2xl p-6 mb-5 relative scan-frame text-brasslight" style="transition-delay:.1s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div class="font-mono text-[10px] uppercase tracking-wide text-tealbright">Mar 2021 — Sep 2023</div>
+        <h3 class="font-display text-lg font-semibold mt-2 text-paper">Ketua Divisi Manajemen Proyek</h3>
+        <div class="text-sm text-paper/60 mt-0.5">Himpunan Mahasiswa Ilmu Komputer</div>
+        <p class="text-[13.5px] text-paper/70 leading-relaxed mt-3">Memimpin perencanaan dan eksekusi program kerja, menyusun timeline tim, serta mengevaluasi pencapaian target setiap kegiatan.</p>
       </div>
-    </section>
-    
-    <!-- end of Contact -->
-  </body>
+
+      <div class="reveal tilt-card bg-ink text-paper rounded-2xl p-6 relative scan-frame text-brasslight" style="transition-delay:.16s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div class="font-mono text-[10px] uppercase tracking-wide text-tealbright">Mar 2021 — Sep 2023</div>
+        <h3 class="font-display text-lg font-semibold mt-2 text-paper">Ketua Divisi Kerjasama, Humas</h3>
+        <div class="text-sm text-paper/60 mt-0.5">UKM Wirausaha</div>
+        <p class="text-[13.5px] text-paper/70 leading-relaxed mt-3">Membangun kerja sama eksternal dan mengoordinasikan program kerja divisi humas, dari perencanaan hingga evaluasi hasil.</p>
+      </div>
+    </div>
+
+    <div>
+      <span class="reveal tag-chip text-brass">MENGAJAR</span>
+      <h2 class="reveal font-display text-2xl md:text-3xl font-semibold tracking-tight mt-5 mb-8" style="transition-delay:.06s">Asisten Praktikum</h2>
+      <p class="reveal text-sm text-textmuted leading-relaxed mb-6 max-w-md" style="transition-delay:.1s">Mendampingi mahasiswa memahami konsep dasar dan menyelesaikan tugas praktikum di tiga mata kuliah inti Ilmu Komputer.</p>
+
+      <div class="space-y-3">
+        <div class="reveal flex items-center justify-between gap-4 border border-textdark/10 rounded-xl px-5 py-4 bg-white/40" style="transition-delay:.14s">
+          <div>
+            <div class="font-display font-medium text-sm">Web Development</div>
+            <div class="text-xs text-textmuted mt-0.5">Feb — Jul 2023</div>
+          </div>
+          <span class="font-mono text-[10px] text-teal">HTML · CSS · JS</span>
+        </div>
+        <div class="reveal flex items-center justify-between gap-4 border border-textdark/10 rounded-xl px-5 py-4 bg-white/40" style="transition-delay:.2s">
+          <div>
+            <div class="font-display font-medium text-sm">Pemrograman Berorientasi Objek</div>
+            <div class="text-xs text-textmuted mt-0.5">Agu 2022 — Jan 2023</div>
+          </div>
+          <span class="font-mono text-[10px] text-teal">OOP</span>
+        </div>
+        <div class="reveal flex items-center justify-between gap-4 border border-textdark/10 rounded-xl px-5 py-4 bg-white/40" style="transition-delay:.26s">
+          <div>
+            <div class="font-display font-medium text-sm">Algoritma &amp; Struktur Data</div>
+            <div class="text-xs text-textmuted mt-0.5">Feb — Jul 2022</div>
+          </div>
+          <span class="font-mono text-[10px] text-teal">DSA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROYEK ============ -->
+<section id="proyek" class="bg-paperdeep py-24 md:py-32">
+  <div class="max-w-6xl mx-auto px-6 md:px-10">
+    <div class="reveal mb-10">
+      <span class="tag-chip text-brass">PENGALAMAN PROJECT</span>
+      <h2 class="font-display text-3xl md:text-[2.4rem] font-semibold tracking-tight mt-5">Proyek Terpilih</h2>
+    </div>
+
+    <div class="reveal flex flex-wrap gap-2.5 mb-10" style="transition-delay:.08s">
+      <button data-filter="semua" data-active="true" class="filter-btn font-mono text-[11px] uppercase tracking-wide px-4 py-2 rounded-full border border-textdark/20 transition-colors">Semua</button>
+      <button data-filter="institusi" class="filter-btn font-mono text-[11px] uppercase tracking-wide px-4 py-2 rounded-full border border-textdark/20 transition-colors">Institusi</button>
+      <button data-filter="klien" class="filter-btn font-mono text-[11px] uppercase tracking-wide px-4 py-2 rounded-full border border-textdark/20 transition-colors">Klien</button>
+      <button data-filter="personal" class="filter-btn font-mono text-[11px] uppercase tracking-wide px-4 py-2 rounded-full border border-textdark/20 transition-colors">Personal</button>
+    </div>
+
+    <div id="project-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <article data-category="institusi" class="reveal tilt-card bg-white rounded-2xl p-6 shadow-sm relative scan-frame text-brass" style="transition-delay:.05s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div class="flex items-center justify-between">
+          <span class="font-mono text-[10px] text-textmuted uppercase">Jan — Agu 2025</span>
+          <span class="tag-chip !text-[9px] !py-1 !px-2.5 !pl-4">Institusi</span>
+        </div>
+        <h3 class="font-display text-lg font-semibold mt-4 leading-snug">Optimasi Landing Page Universitas Pertamina</h3>
+        <div class="text-xs text-textmuted mt-1">Fungsi IT Universitas Pertamina</div>
+        <p class="text-[13.5px] text-textmuted leading-relaxed mt-3">Menganalisis performa website dengan GTmetrix dan menerapkan Critical CSS, lazy loading, serta caching untuk mempercepat waktu muat halaman.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">GTmetrix</span>
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Critical CSS</span>
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Caching</span>
+        </div>
+      </article>
+
+      <article data-category="klien" class="reveal tilt-card bg-white rounded-2xl p-6 shadow-sm relative scan-frame text-teal" style="transition-delay:.1s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div class="flex items-center justify-between">
+          <span class="font-mono text-[10px] text-textmuted uppercase">Sep 2023 — Jan 2024</span>
+          <span class="tag-chip !text-[9px] !py-1 !px-2.5 !pl-4">Klien</span>
+        </div>
+        <h3 class="font-display text-lg font-semibold mt-4 leading-snug">Photoblast, Photobooth Berbasis Web</h3>
+        <div class="text-xs text-textmuted mt-1">PT. Pamulang Harapan Bangsa</div>
+        <p class="text-[13.5px] text-textmuted leading-relaxed mt-3">Memimpin tim pengembangan aplikasi photobooth dari perencanaan hingga pengujian, memastikan aplikasi berjalan sesuai standar klien.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Team Lead</span>
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Testing & QA</span>
+        </div>
+      </article>
+
+      <article data-category="personal" class="reveal tilt-card bg-white rounded-2xl p-6 shadow-sm relative scan-frame text-brass" style="transition-delay:.15s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div class="flex items-center justify-between">
+          <span class="font-mono text-[10px] text-textmuted uppercase">Sep 2025</span>
+          <span class="tag-chip !text-[9px] !py-1 !px-2.5 !pl-4">Personal</span>
+        </div>
+        <h3 class="font-display text-lg font-semibold mt-4 leading-snug">Athena Buket, Landing Page &amp; E-commerce</h3>
+        <div class="text-xs text-textmuted mt-1">Proyek Personal</div>
+        <p class="text-[13.5px] text-textmuted leading-relaxed mt-3">Membangun landing page dan sistem e-commerce untuk bisnis buket, lengkap dengan katalog produk, keranjang belanja, dan integrasi payment gateway DOKU.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Laravel</span>
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">MySQL</span>
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">DOKU</span>
+        </div>
+      </article>
+
+      <article data-category="personal" class="reveal tilt-card bg-white rounded-2xl p-6 shadow-sm relative scan-frame text-teal" style="transition-delay:.05s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div class="flex items-center justify-between">
+          <span class="font-mono text-[10px] text-textmuted uppercase">Agu — Sep 2025</span>
+          <span class="tag-chip !text-[9px] !py-1 !px-2.5 !pl-4">Personal</span>
+        </div>
+        <h3 class="font-display text-lg font-semibold mt-4 leading-snug">MyDiary, Aplikasi Curhat Online</h3>
+        <div class="text-xs text-textmuted mt-1">Proyek Personal / Permintaan Klien</div>
+        <p class="text-[13.5px] text-textmuted leading-relaxed mt-3">Mengembangkan aplikasi diary harian dengan mood tracking, sistem langganan 20 hari, autentikasi pengguna, dan integrasi pembayaran.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Laravel</span>
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Subscription</span>
+        </div>
+      </article>
+
+      <article data-category="klien" class="reveal tilt-card bg-white rounded-2xl p-6 shadow-sm relative scan-frame text-brass" style="transition-delay:.1s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div class="flex items-center justify-between">
+          <span class="font-mono text-[10px] text-textmuted uppercase">Mar — Agu 2023</span>
+          <span class="tag-chip !text-[9px] !py-1 !px-2.5 !pl-4">Klien</span>
+        </div>
+        <h3 class="font-display text-lg font-semibold mt-4 leading-snug">Perpustakaan Online SMKN 1 Kepanjen</h3>
+        <div class="text-xs text-textmuted mt-1">SMKN 1 Kepanjen</div>
+        <p class="text-[13.5px] text-textmuted leading-relaxed mt-3">Merancang sistem perpustakaan digital dengan katalog buku, peminjaman digital, manajemen anggota, dan dashboard admin.</p>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Database Design</span>
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-paperdeep">Admin Dashboard</span>
+        </div>
+      </article>
+
+      <article data-category="institusi" class="reveal tilt-card bg-ink text-paper rounded-2xl p-6 relative scan-frame text-brasslight flex flex-col justify-between" style="transition-delay:.15s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div>
+          <span class="font-mono text-[10px] text-tealbright uppercase">Presales · Saat Ini</span>
+          <h3 class="font-display text-lg font-semibold mt-4 leading-snug text-paper">Solusi Cybersecurity &amp; Asset Management</h3>
+          <p class="text-[13.5px] text-paper/70 leading-relaxed mt-3">Menyusun proposal dan materi teknis Heimdal Security serta TAG Samurai untuk klien enterprise dan pemerintahan di Indonesia.</p>
+        </div>
+        <div class="flex flex-wrap gap-1.5 mt-5">
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-white/10">Heimdal Security</span>
+          <span class="text-[10px] font-mono px-2 py-1 rounded bg-white/10">TAG Samurai</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ KOMPETENSI ============ -->
+<section id="kompetensi" class="bg-paper grid-paper py-24 md:py-32">
+  <div class="max-w-6xl mx-auto px-6 md:px-10 grid lg:grid-cols-[1fr,0.85fr] gap-14">
+
+    <div>
+      <span class="reveal tag-chip text-brass">TOOLS &amp; KOMPETENSI</span>
+      <h2 class="reveal font-display text-2xl md:text-3xl font-semibold tracking-tight mt-5 mb-3" style="transition-delay:.06s">Yang Saya Gunakan Sehari-hari</h2>
+      <p class="reveal text-sm text-textmuted leading-relaxed mb-7 max-w-md" style="transition-delay:.1s">Kombinasi kemampuan teknis dari proyek pengembangan web dan kemampuan komunikasi dari pekerjaan presales.</p>
+
+      <div class="reveal mb-8" style="transition-delay:.14s">
+        <div class="font-mono text-[11px] uppercase tracking-wide text-textmuted mb-3">Teknis</div>
+        <div class="flex flex-wrap gap-2">
+          <span class="tag-chip text-teal">Laravel</span>
+          <span class="tag-chip text-teal">Python</span>
+          <span class="tag-chip text-teal">MySQL</span>
+          <span class="tag-chip text-teal">JavaScript</span>
+          <span class="tag-chip text-teal">Tailwind CSS</span>
+          <span class="tag-chip text-teal">Bootstrap</span>
+          <span class="tag-chip text-teal">Machine Learning</span>
+          <span class="tag-chip text-teal">Data Analysis</span>
+          <span class="tag-chip text-teal">DOKU Payment Gateway</span>
+        </div>
+      </div>
+
+      <div class="reveal" style="transition-delay:.2s">
+        <div class="font-mono text-[11px] uppercase tracking-wide text-textmuted mb-3">Pelatihan Presales &amp; Bisnis</div>
+        <div class="flex flex-wrap gap-2">
+          <span class="tag-chip text-brass">Perencanaan Strategi Pemasaran</span>
+          <span class="tag-chip text-brass">Digital Marketing &amp; Media Sosial</span>
+          <span class="tag-chip text-brass">Market Research &amp; Trend Analysis</span>
+          <span class="tag-chip text-brass">Public Relations &amp; Brand Positioning</span>
+          <span class="tag-chip text-brass">Leadership &amp; Cross-functional Collaboration</span>
+          <span class="tag-chip text-brass">Copywriting &amp; Campaign Management</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal bg-white rounded-2xl p-7 shadow-sm h-fit" style="transition-delay:.1s">
+      <div class="font-mono text-[11px] uppercase tracking-wide text-textmuted mb-6">Bahasa</div>
+      <div class="mb-6">
+        <div class="flex justify-between text-sm font-display font-medium mb-2">
+          <span>Bahasa Indonesia</span><span class="text-textmuted font-mono text-xs">Fasih</span>
+        </div>
+        <div class="lang-bar"><span data-width="95"></span></div>
+      </div>
+      <div>
+        <div class="flex justify-between text-sm font-display font-medium mb-2">
+          <span>Bahasa Inggris</span><span class="text-textmuted font-mono text-xs">Menengah</span>
+        </div>
+        <div class="lang-bar"><span data-width="62"></span></div>
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-textdark/10">
+        <div class="font-mono text-[11px] uppercase tracking-wide text-textmuted mb-3">Pendidikan</div>
+        <div class="font-display font-semibold">S1 Ilmu Komputer</div>
+        <div class="text-sm text-textmuted mt-0.5">Universitas Pertamina</div>
+        <div class="flex justify-between items-center mt-3">
+          <span class="text-xs font-mono text-textmuted">2020 — 2025</span>
+          <span class="tag-chip text-brass !text-[10px]">IPK 3.07</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PORTOFOLIO ============ -->
+<section id="portofolio" class="bg-paperdeep py-24 md:py-32">
+  <div class="max-w-6xl mx-auto px-6 md:px-10">
+    <div class="reveal mb-12">
+      <span class="tag-chip text-brass">DOKUMEN TERKAIT</span>
+      <h2 class="font-display text-3xl md:text-[2.4rem] font-semibold tracking-tight mt-5">Portofolio Data</h2>
+      <p class="text-sm text-textmuted leading-relaxed mt-3 max-w-md">Contoh pekerjaan analisis data dan data science dalam format spreadsheet.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-6">
+      <a href="https://docs.google.com/spreadsheets/u/0/d/19CZHNS1daB-KSgKhJ072UUG9yirTOsAcUlzkJ0HE0o/htmlview#gid=0" target="_blank" rel="noopener" class="reveal tilt-card group bg-ink text-paper rounded-2xl p-7 relative scan-frame text-brasslight flex flex-col justify-between min-h-[190px]">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div>
+          <span class="font-mono text-[10px] uppercase tracking-wide text-tealbright">TAG · DATA-ANALYST</span>
+          <h3 class="font-display text-xl font-semibold mt-3">Data Analyst</h3>
+          <p class="text-sm text-paper/60 mt-2">Lembar kerja proses eksplorasi dan analisis data.</p>
+        </div>
+        <span class="font-mono text-[11px] uppercase tracking-wide mt-6 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Buka Dokumen <span aria-hidden="true">↗</span></span>
+      </a>
+
+      <a href="https://docs.google.com/spreadsheets/d/1ugL7aW_zgLCKNAqkcgLUn58mUPqEsuujgErIHt9mG2g/edit?gid=550799404#gid=550799404" target="_blank" rel="noopener" class="reveal tilt-card group bg-ink text-paper rounded-2xl p-7 relative scan-frame text-brasslight flex flex-col justify-between min-h-[190px]" style="transition-delay:.08s">
+        <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+        <div>
+          <span class="font-mono text-[10px] uppercase tracking-wide text-tealbright">TAG · DATA-SCIENTIST</span>
+          <h3 class="font-display text-xl font-semibold mt-3">Data Scientist</h3>
+          <p class="text-sm text-paper/60 mt-2">Lembar kerja proses pemodelan dan evaluasi data.</p>
+        </div>
+        <span class="font-mono text-[11px] uppercase tracking-wide mt-6 inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all">Buka Dokumen <span aria-hidden="true">↗</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ KONTAK / FOOTER ============ -->
+<footer id="kontak" class="relative bg-ink text-paper overflow-hidden">
+  <div class="absolute inset-0 grid-dark opacity-50"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-10 py-24 md:py-28">
+    <div class="reveal">
+      <span class="tag-chip text-brasslight">MARI TERHUBUNG</span>
+      <h2 class="font-display font-semibold tracking-tight mt-6 text-4xl md:text-6xl leading-[1.02] max-w-2xl">
+        Tertarik berdiskusi soal proposal, proyek, atau kolaborasi?
+      </h2>
+      <p class="mt-6 max-w-lg text-textmutedlight leading-relaxed">
+        Terbuka untuk peluang presales engineering, pengembangan web, maupun kolaborasi seputar data.
+      </p>
+      <a href="mailto:rofinb123@gmail.com" class="magnetic mt-9 px-7 py-4 rounded-full bg-brasslight text-ink font-mono text-[12px] uppercase tracking-wide font-medium">Kirim Email Sekarang</a>
+    </div>
+
+    <div class="reveal grid sm:grid-cols-3 gap-6 mt-16 pt-10 border-t border-white/10" style="transition-delay:.1s">
+      <a href="mailto:rofinb123@gmail.com" class="group">
+        <div class="font-mono text-[10px] uppercase tracking-wide text-textmutedlight mb-1.5">Email</div>
+        <div class="font-display group-hover:text-tealbright transition-colors">rofinb123@gmail.com</div>
+      </a>
+      <a href="tel:+6282124975759" class="group">
+        <div class="font-mono text-[10px] uppercase tracking-wide text-textmutedlight mb-1.5">Telepon</div>
+        <div class="font-display group-hover:text-tealbright transition-colors">0821-2497-5759</div>
+      </a>
+      <div>
+        <div class="font-mono text-[10px] uppercase tracking-wide text-textmutedlight mb-1.5">Alamat</div>
+        <div class="font-display">Jl. Puyuh Raya Blok E.464</div>
+      </div>
+    </div>
+
+    <div class="reveal flex flex-col sm:flex-row justify-between gap-3 mt-14 pt-7 border-t border-white/10 font-mono text-[11px] text-textmutedlight" style="transition-delay:.16s">
+      <span>© <span id="year"></span> Rofi Nabhan Basil. Disusun rapi, seperti menyusun proposal.</span>
+      <span>Dibangun dengan HTML, CSS &amp; Tailwind</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ---------- nav bg on scroll + mobile menu ----------
+  const nav = document.getElementById('site-nav');
+  const navTexts = document.querySelectorAll('.nav-text');
+  function setNavStyle(){
+    const scrolled = window.scrollY > 24;
+    nav.classList.toggle('bg-paper/90', scrolled);
+    nav.classList.toggle('backdrop-blur-md', scrolled);
+    nav.classList.toggle('shadow-sm', scrolled);
+    navTexts.forEach(el => {
+      el.classList.toggle('text-textdark', scrolled);
+      el.classList.toggle('text-paper', !scrolled);
+    });
+  }
+  setNavStyle();
+  window.addEventListener('scroll', setNavStyle, { passive: true });
+
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('icon-open');
+  const iconClose = document.getElementById('icon-close');
+  menuToggle.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen);
+    iconOpen.classList.toggle('hidden', isOpen);
+    iconClose.classList.toggle('hidden', !isOpen);
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    iconOpen.classList.remove('hidden');
+    iconClose.classList.add('hidden');
+  }));
+
+  // ---------- progress bar ----------
+  const progressBar = document.getElementById('progress-bar');
+  function setProgress(){
+    const h = document.documentElement;
+    const scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+    progressBar.style.width = scrolled + '%';
+  }
+  window.addEventListener('scroll', setProgress, { passive: true });
+
+  // ---------- reveal on scroll ----------
+  const revealItems = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+  revealItems.forEach(el => io.observe(el));
+
+  // ---------- counters ----------
+  function animateCount(el, target, decimals){
+    const dur = 1400;
+    const start = performance.now();
+    function frame(now){
+      const p = Math.min((now - start) / dur, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      const val = target * eased;
+      el.textContent = decimals ? val.toFixed(2) : Math.round(val);
+      if (p < 1) requestAnimationFrame(frame);
+      else el.textContent = decimals ? target.toFixed(2) : target;
+    }
+    requestAnimationFrame(frame);
+  }
+  const counterEls = document.querySelectorAll('.stat-num, .stat-num-decimal');
+  const cio = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseFloat(el.dataset.target);
+        const decimals = el.classList.contains('stat-num-decimal');
+        animateCount(el, target, decimals);
+        cio.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+  counterEls.forEach(el => cio.observe(el));
+
+  // ---------- language bars ----------
+  const langBars = document.querySelectorAll('.lang-bar > span');
+  const lio = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.width = entry.target.dataset.width + '%';
+        lio.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+  langBars.forEach(el => lio.observe(el));
+
+  // ---------- hero parallax ----------
+  const heroSection = document.getElementById('beranda');
+  const parallaxGrid = document.getElementById('parallax-grid');
+  const parallaxItems = document.querySelectorAll('.parallax-item');
+  let ticking = false;
+  function updateParallax(){
+    const rect = heroSection.getBoundingClientRect();
+    const progress = Math.min(Math.max(-rect.top / (rect.height || 1), 0), 1.4);
+    if (parallaxGrid) parallaxGrid.style.transform = `translateY(${progress * 60}px)`;
+    parallaxItems.forEach(el => {
+      const speed = parseFloat(el.dataset.speed) || 0.3;
+      el.style.transform = `translateY(${progress * 140 * speed}px)`;
+    });
+    ticking = false;
+  }
+  window.addEventListener('scroll', () => {
+    if (!ticking) { requestAnimationFrame(updateParallax); ticking = true; }
+  }, { passive: true });
+  updateParallax();
+
+  // ---------- 3D tilt cards ----------
+  const tiltCards = document.querySelectorAll('.tilt-card');
+  const isTouch = matchMedia('(hover: none)').matches;
+  if (!isTouch) {
+    tiltCards.forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const r = card.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5;
+        const y = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = `perspective(700px) rotateY(${x * 8}deg) rotateX(${-y * 8}deg) translateY(-2px)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'perspective(700px) rotateY(0deg) rotateX(0deg) translateY(0)';
+      });
+    });
+
+    // magnetic buttons
+    document.querySelectorAll('.magnetic').forEach(btn => {
+      btn.addEventListener('mousemove', (e) => {
+        const r = btn.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5;
+        const y = (e.clientY - r.top) / r.height - 0.5;
+        btn.style.transform = `translate(${x * 10}px, ${y * 10}px)`;
+      });
+      btn.addEventListener('mouseleave', () => { btn.style.transform = 'translate(0,0)'; });
+    });
+  }
+
+  // ---------- project filter ----------
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectCards = document.querySelectorAll('#project-grid > article');
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.dataset.active = 'false');
+      btn.dataset.active = 'true';
+      const filter = btn.dataset.filter;
+      projectCards.forEach(card => {
+        const show = filter === 'semua' || card.dataset.category === filter;
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  });
+</script>
+</body>
 </html>
+>>>>>>> 558aa6a (Initial commit for GitHub Pages)
